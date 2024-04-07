@@ -25,7 +25,12 @@
         {%- endif %}
       </div>
     {% endif -%}
+    {% if site.enable_rss -%}
+      <div class="footer-col">
+    {% else -%} 
       <div class="footer-col footer-description">
+    {% endif -%}
+
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
