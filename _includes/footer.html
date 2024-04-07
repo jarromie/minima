@@ -4,7 +4,7 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-    {% if site.enable_rss -%}
+    {% if site.rss -%}
       <div class="footer-col">
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
@@ -25,7 +25,7 @@
         {%- endif %}
       </div>
     {% endif -%}
-    {% if site.enable_rss -%}
+    {% if site.rss -%}
       <div class="footer-col">
     {% else -%} 
       <div class="footer-col footer-description">
