@@ -1,4 +1,4 @@
-title: jarrom.io
+title: minima fork
 author:
   name: jarromie
   email: jarromie@whocodes.tech
@@ -7,8 +7,8 @@ rss: false # set to true to enable link to RSS feed in footer - description will
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  The personal site and blog, as well as hosting for various projects and their
-  docs, in relation to github.com/jarromie and git.whocodes.tech
+  This is the hosting for the `minima` theme, a custom modification of `jekyll/minima`.
+  created for use on jarromie.github.io
 
 # Build settings
 
