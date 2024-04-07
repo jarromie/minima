@@ -2,6 +2,7 @@ title: jarrom.io
 author:
   name: jarromie
   email: jarromie@whocodes.tech
+rss: false # set to true to enable link to RSS feed in footer - description will be centered if RSS link is disabled
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
